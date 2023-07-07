@@ -11,7 +11,12 @@ A mobile application for assessing and monitoring the mental health of Batangas 
 ## About
 The Mental Health Assessment Application is a mobile application developed with Ionic, designed to assess and monitor the mental health of BatStateU students. It aims to promote mental health awareness, provide timely support, and assist in the intervention of mental health struggles among students.
 ## Features
-  Registration Page: Allows users to create a new account by providing their     necessary details, such as name, email address, and password.
+* Registration Page: Allows users to create a new account by providing their necessary details, such as name, email address, and password.
+* Login Page: Provides users with a secure login interface to access their accounts.
+* DASS-21 Assessment: Incorporates the Depression, Anxiety, and Stress Scale (DASS-21) questionnaire to assess the user's mental health
+* status. The assessment consists of a series of questions designed to evaluate levels of depression, anxiety, and stress experienced by * the user.
+* Assessment Result Page: Displays the results of the DASS-21 assessment in a clear and user-friendly manner. The result page provides users with an overview of their mental health status based on the assessment, helping them understand their emotional well-being.
+
 ## Getting Started
 To get started with the Mental Health Assessment Application, follow these steps:
 Clone the repository to your local machine.
