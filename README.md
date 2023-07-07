@@ -19,7 +19,8 @@ The Mental Health Assessment Application is a mobile application developed with 
 
 ## Getting Started
 To get started with the Mental Health Assessment Application, follow these steps:
-* Clone the repository to your local machine.
+
+Clone the repository to your local machine.
 Install the necessary dependencies by running the following command:
 
 
