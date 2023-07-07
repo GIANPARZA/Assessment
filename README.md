@@ -23,10 +23,10 @@ Clone the repository to your local machine.
 Install the necessary dependencies by running the following command:
 
 
-- **npm install** 
-* -Run the application using the following command:
+- **npm install**
+- -Run the application using the following command:
 + **ionic serve** 
-* -Access the application through your preferred web browser using the specified URL or run it on a mobile device using the Ionic DevApp.
+-Access the application through your preferred web browser using the specified URL or run it on a mobile device using the Ionic DevApp.
 
 ## Usage
 Once the application is running, users can create an account or log in to their existing account. They can then complete the DASS-21 assessment by answering the provided questions. After completing the assessment, users can view their assessment results on the result page, which provides an overview of their mental health status.
