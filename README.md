@@ -21,11 +21,29 @@ A mobile application for assessing and monitoring the mental health of Batangas 
 To get started with the Mental Health Assessment Application, follow these steps:
 
 &nbsp;Clone the repository to your local machine.
+1. On GitHub.com, navigate to the main page of the repository.
+1. Above the list of files, click < > Code.
+1. Copy the URL for the repository.
+    - To clone the repository using HTTPS, under "HTTPS", click .
+    -  clone the repository using an SSH key, including a certificate issued by           your organization's SSH certificate authority, click SSH, then click .
+    - To clone a repository using GitHub CLI, click GitHub CLI, then click
+1. Open Git Bash.
+1. Change the current working directory to the location where you want the cloned directory.
+1. Type git clone, and then paste the URL you copied earlier.
+    - git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+1. Press Enter to create your local clone.
+    - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    -  Cloning into `Your-repository`...
+    -  remote: Counting objects: 10, done.
+    -  remote: Compressing objects: 100% (8/8), done.
+    -  remove: Total 10 (delta 1), reused 10 (delta 1)
+    -  Unpacking objects: 100% (10/10), done.
+
+   
 &nbsp;Install the necessary dependencies by running the following command:
 
 
-- **npm install**
-  - Run the application using the following command:
+- **Run the application using the following command in cmd or terminal:**
 - **ionic serve** 
   - Access the application through your preferred web browser using the specified URL or run it on a mobile device using the Ionic DevApp.
 
