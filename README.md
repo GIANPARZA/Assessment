@@ -51,19 +51,24 @@ Report any bugs or issues by opening a new issue on the GitHub repository.
 Submit feature requests or suggestions by opening a new issue on the GitHub repository.
 Fork the repository, make your changes, and submit a pull request for review.
 Please ensure that your contributions align with the project's coding conventions and follow best practices.
-
 ## License
-
 ## Contact
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
 ### **Project Lead:**
+
+#### Marc Arron Manansala
 <img src="marc.png" alt="logo" title="marc" width="100" height="75">
--  Marc Arron Manansala
-<img src="klaier.png" alt="logo" title="marc" width="100" height="75">
--  Klaier Anthonette Aranas
+
+#### Klaier Anthonette Aranas
+<img src="klaier.png" alt="logo" title="klaier" width="100" height="75">
+
+#### Gian Carlo Parza 
 <img src="gian.png" alt="logo" title="marc" width="100" height="75">
--  Gian Carlo Parza 
-### **BatStateU OGC** 
+
+### BatStateU OGC 
+<img src="logo.png" alt="logo" title="marc" width="100" height="75">
+
+
 
 
 
