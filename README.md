@@ -12,9 +12,9 @@ Clone the repository to your local machine.
 Install the necessary dependencies by running the following command:
 
 
-** npm install
-** Run the application using the following command:
-** ionic serve
+** npm install ** 
+** Run the application using the following command: ** 
+** ionic serve ** 
 
 
 Access the application through your preferred web browser using the specified URL or run it on a mobile device using the Ionic DevApp.
@@ -33,8 +33,8 @@ Please ensure that your contributions align with the project's coding convention
 
 ## Contact
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
-** Project Lead: Your Name
-** BatStateU OGC
+** Project Lead: Your Name ** 
+** BatStateU OGC ** 
 
 
 
