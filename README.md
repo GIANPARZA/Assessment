@@ -1,7 +1,13 @@
 # Mental Health Assessment Application
 A mobile application for assessing and monitoring the mental health of Batangas State University (BatStateU) students.
 ## Table of Contents
-
+* About
+* Features
+* Getting Started
+* Usage
+* Contributing
+* License
+* Contact
 ## About
 The Mental Health Assessment Application is a mobile application developed with Ionic, designed to assess and monitor the mental health of BatStateU students. It aims to promote mental health awareness, provide timely support, and assist in the intervention of mental health struggles among students.
 ## Features
