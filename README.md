@@ -43,11 +43,11 @@ Please ensure that your contributions align with the project's coding convention
 
 ## Contact
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
-**Project Lead:**
+### **Project Lead:**
 -  Marc Arron Manansala
 -  Klaier Anthonette Aranas
 -  Gian Carlo Parza 
-**BatStateU OGC** 
+### **BatStateU OGC** 
 
 
 
