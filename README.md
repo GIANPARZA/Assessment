@@ -57,13 +57,13 @@ For any questions or inquiries about the Mental Health Assessment Application, p
 ### **Project Lead:**
 
 #### Marc Arron Manansala
-<img src="marc.png" alt="logo" title="marc" width="100" height="75">
+<img src="shrek.png" alt="logo" title="marc" width="100" height="75">
 
 #### Klaier Anthonette Aranas
-<img src="klaier.png" alt="logo" title="klaier" width="100" height="75">
+<img src="shrek.png" alt="logo" title="klaier" width="100" height="75">
 
 #### Gian Carlo Parza 
-<img src="gian.png" alt="logo" title="marc" width="100" height="75">
+<img src="shrek.png" alt="logo" title="marc" width="100" height="75">
 
 ### BatStateU OGC 
 <img src="logo.png" alt="logo" title="marc" width="100" height="75">
