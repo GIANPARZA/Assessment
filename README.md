@@ -30,10 +30,10 @@ Install the necessary dependencies by running the following command:
   - Access the application through your preferred web browser using the specified URL or run it on a mobile device using the Ionic DevApp.
 
 ## Usage
-Once the application is running, users can create an account or log in to their existing account. They can then complete the DASS-21 assessment by answering the provided questions. After completing the assessment, users can view their assessment results on the result page, which provides an overview of their mental health status.
+  Once the application is running, users can create an account or log in to their existing account. They can then complete the DASS-21 assessment by answering the provided questions. After completing the assessment, users can view their assessment results on the result page, which provides an overview of their mental health status.
 
 ## Contributing
-Contributions to the Mental Health Assessment Application are welcome. If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please follow the guidelines below:
+  Contributions to the Mental Health Assessment Application are welcome. If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please follow the guidelines below:
 Report any bugs or issues by opening a new issue on the GitHub repository.
 Submit feature requests or suggestions by opening a new issue on the GitHub repository.
 Fork the repository, make your changes, and submit a pull request for review.
@@ -43,7 +43,10 @@ Please ensure that your contributions align with the project's coding convention
 
 ## Contact
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
-- **Project Lead: Your Name** 
+- **Project Lead:
+-  Marc Arron Manansala
+-  Klaier Anthonette Aranas
+-  Gian Carlo Parza ** 
 + **BatStateU OGC** 
 
 
