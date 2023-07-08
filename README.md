@@ -56,14 +56,14 @@ Please ensure that your contributions align with the project's coding convention
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
 ### **Project Lead:**
 
-#### Marc Aaron Manansala
-<img src="marc.png" alt="logo" title="marc" width="100" height="75">
-
 #### Klaier Anthonette Aranas
-<img src="klaier.png" alt="logo" title="klaier" width="100" height="75">
+<img src="proj_lead/klaier.png.png" alt="logo" title="klaier" width="100" height="75">
+
+#### Marc Aaron Manansala
+<img src="proj_lead/marc.png.png" alt="logo" title="marc" width="100" height="75">
 
 #### Gian Carlo Parza 
-<img src="gian.png" alt="logo" title="marc" width="100" height="75">
+<img src="proj_lead/gian.png.png" alt="logo" title="marc" width="100" height="75">
 
 ### BatStateU OGC 
 <img src="logo.png" alt="logo" title="marc" width="100" height="75">
