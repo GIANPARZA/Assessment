@@ -1,29 +1,59 @@
-<ion-header>
-  <ion-toolbar>
+<style>
+    :host {
+      --background:url('/assets/home.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #ffffff;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+</style>
+<ion-header >
+
     <ion-title>
-      <ion-row class="ion-align-items-center">
-        <ion-col size="1">
-          <ion-img class="displayed"  src="assets/bsu_logo.png" alt="Logo" ></ion-img>
+      <div class="toolbar" role="banner">
+        <img
+          width="40"
+          alt="Angular Logo"
+          src="/assets/logo1.png"
+        />
+
+        <span class="mind1">BATANGAS STATE UNIVERSITY<br>MENTAL HEALTH ASSESSMENT APPLICATION</span>
+          <div class="spacer"></div>
+
+          <span class="mind1">In Partnership With</span>
+          <img
+          width="80"
+          alt="Angular Logo"
+          src="/assets/logo2.png"
+        />
+
+      </div>
+
+    </ion-title>
+
+</ion-header>
+
+<ion-content >
+  <div class="spacer"></div><br><br>
+  <div class="content"></div>
+
+
+      <ion-row>
+        <ion-col size="12" class="button">
+          <ion-button color="primary" expand="round">Take Assessment</ion-button>
         </ion-col>
-
-        <ion-col size="1" class="title-col">
-          Batangas State University - TNEU
-        </ion-col>
-
-
-        <ion-col size="1" >
-          <ion-img class="displayed2"  src="assets/the_mind_logo.png" alt="Logo" ></ion-img>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="button">
+          <ion-button color="dark" expand="round">Terms and Conditions</ion-button>
         </ion-col>
       </ion-row>
 
 
 
-
-
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content class="bg">
-
-</ion-content>
+  </ion-content>
