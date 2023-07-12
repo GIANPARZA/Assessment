@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Assessment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="submitAssessment()">
+    <ion-list>
+      <ion-item>
+        <ion-label>Question 1:</ion-label>
+        <ion-select [(ngModel)]="answers.question1">
+          <ion-select-option value="1">1</ion-select-option>
+          <ion-select-option value="2">2</ion-select-option>
+          <ion-select-option value="3">3</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Question 2:</ion-label>
+        <ion-select [(ngModel)]="answers.question2">
+          <ion-select-option value="option1">red</ion-select-option>
+          <ion-select-option value="option2">blue</ion-select-option>
+          <ion-select-option value="option3">green</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-button expand="block" type="submit">Submit</ion-button>
+  </form>
+
+  <ion-card *ngIf="showResult">
+    <ion-card-header>
+      Result
+    </ion-card-header>
+    <ion-card-content>
+      <p>Question 1: {{ answers.question1 }}</p><br>
+      <p>Question 2: {{ answers.question2 }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
