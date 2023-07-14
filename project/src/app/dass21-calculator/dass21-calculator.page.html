@@ -1,0 +1,90 @@
+<ion-header >
+
+  <ion-title>
+    <div class="toolbar" role="banner">
+      <img
+        width="40"
+        alt="Angular Logo"
+        src="/assets/logo1.png"
+      />
+
+      <span class="mind1" >BATANGAS STATE UNIVERSITY<br>MENTAL HEALTH ASSESSMENT APPLICATION</span>
+        <div class="spacer"></div>
+        
+        <span class="mind1"></span>
+        <img
+        width="80"
+        alt="Angular Logo"
+        src="/assets/logo2.png"
+      />
+      
+    </div>
+    
+  </ion-title>
+
+</ion-header>
+<br><br>
+<br>
+
+<ion-card>
+  <ion-card-content>
+    <ion-card-title>
+      Instructions:
+    </ion-card-title>
+    <ion-text>
+      Please read each statement and circle a number 0, 1, 2 or 3 which indicates how much the statement
+applied to you over the past week. There are no right or wrong answers. Do not spend too much time
+on any statement.
+          The rating scale is as follows:<br></ion-text>
+          <table color="black">
+            <tr>
+              <td>Rating</td>
+              
+              <td>Description</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Did not apply to me at all</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Applied to me to some degree, or some of the time</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td> Applied to me to a considerable degree, or a good part of time</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Applied to me very much, or most of the time</td>
+            </tr>
+
+          </table>
+
+
+ 
+  </ion-card-content>
+</ion-card>
+
+<ion-content>
+  <ion-list>
+
+      <ion-item *ngFor="let questionIndex of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]">
+ 
+      <ion-label>Question{{ questionIndex }}</ion-label>
+
+      <ion-select label="Question {{questionIndex}}" [(ngModel)]="userResponses[questionIndex - 1]" interface="alert" [interfaceOptions]="header[questionIndex - 1]" [cancelText]="null" [okText]="'Okay'" required>
+        <ion-select-option value="0">0</ion-select-option>
+        <ion-select-option value="1">1</ion-select-option>
+        <ion-select-option value="2">2</ion-select-option>
+        <ion-select-option value="3">3</ion-select-option>
+      </ion-select>
+      </ion-item>
+      
+  </ion-list>
+
+  <ion-button expand="round" color="success" (click)="calculateDASS21Result()">Submit Answers</ion-button>
+
+
+
+</ion-content>
