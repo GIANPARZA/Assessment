@@ -160,7 +160,7 @@
   }
   .mind1 {
     color: #ffff;
-    font-size: 14px;
+    font-size: 10px;
     text-align: justify;
 
 
@@ -174,16 +174,16 @@
     margin: 8px;
     top: 200px;
     background-color:transparent;
-
+    
   }
-
+  
   ion-content {
-    --background:url('/assets/home.png');
+    --background:url('/assets/home_1.png') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
   }
-
+  
   .a {
     display: flex;
     justify-content: center;
@@ -204,7 +204,7 @@
     --background:transparent;
     --border-color: #fafafa;
     --border-width: 1px;
-
+   
   }
   ion-grid {
     margin-left: 40px;
@@ -221,3 +221,5 @@
     --width:100px ;
     margin: 8px;
     background-color:transparent;
+  }
+  
