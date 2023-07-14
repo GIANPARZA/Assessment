@@ -1,0 +1,214 @@
+#container {
+    text-align: left;
+    margin-left: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 8px 0;
+      font-size: 50px;
+      color:#fafafa;
+    }
+    p {
+      margin: 0;
+      color: #fafafa;
+    }
+  
+    .spacer {
+      flex: 1;
+    }
+    .toolbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      background:url('/assets/header.png');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      color: white;
+      font-weight: 600;
+    }
+    .toolbar img {
+      margin: 0 16px;
+    }
+    .content {
+      --background:url('/assets/home.png');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      display: flex;
+      margin: 82px auto 32px;
+      padding: 0 16px;
+      max-width: 960px;
+      flex-direction: column;
+      align-items: center;
+    }
+    card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 16px;
+    }
+  
+    .card {
+      all: unset;
+      border-radius: 4px;
+      border: 1px solid #eee;
+      background-color: #fafafa;
+      height: 40px;
+      width: 200px;
+      margin: 0 8px 16px;
+      padding: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+    }
+  
+    .card-container .card:not(:last-child) {
+      margin-right: 0;
+    }
+  
+    .card.card-small {
+      height: 16px;
+      width: 168px;
+    }
+  
+    .card-container .card:not(.highlight-card) {
+      cursor: pointer;
+    }
+  
+    .card-container .card:not(.highlight-card):hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    }
+  
+    .card-container .card:not(.highlight-card):hover .material-icons path {
+      fill: rgb(105, 103, 103);
+    }
+  
+    .card.highlight-card {
+      background-color: #1976d2;
+      color: white;
+      font-weight: 600;
+      border: none;
+      width: auto;
+      min-width: 30%;
+      position: relative;
+    }
+  
+    .card.card.highlight-card span {
+      margin-left: 60px;
+    }
+    /* Responsive Styles */
+    @media screen and (max-width: 767px) {
+      .card-container > *:not(.circle-link) ,
+      .terminal {
+        width: 100%;
+      }
+  
+      .card:not(.highlight-card) {
+        height: 16px;
+        margin: 8px 0;
+      }
+  
+      .card.highlight-card span {
+        margin-left: 72px;
+      }
+    }
+  
+    ion-content {
+      --background:url('/assets/home.png') no-repeat;
+      --background-size: cover;
+      --background-position: center;
+      background-size: cover;
+    }
+    .mind {
+      color: #fea025;
+  
+    }
+    .mind1 {
+      color: #ffff;
+      font-size: 10px;
+      text-align: justify;
+
+    }
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:100px ;
+      margin: 8px;
+      background-color:transparent;
+      
+    }
+    .a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+    }
+    ion-label {
+      margin: 10px;
+      background-color:transparent;
+      color: #fafafa;
+
+    }
+    ion-input {
+      margin: 0px;
+      background-color:transparent;
+      width: 400px;
+      color: #fafafa;
+    }
+    ion-item {
+      --border-radius: 40px;
+      margin: 1px;
+      --background:transparent;
+      --border-color: #fafafa;
+      --border-width: 3px;
+      color: #fafafa;
+     
+    }
+    ion-grid {
+      margin-left: 40px;
+      margin-top: 40px;
+    }
+    ion-col {
+      display: flex;
+      align-items: center;
+    }
+    ion-text {
+      color: #fafafa;
+    }

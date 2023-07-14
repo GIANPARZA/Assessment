@@ -1,0 +1,107 @@
+<style>
+  :host {
+    --background:url('/assets/home.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #ffffff;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
+<ion-header >
+
+  <ion-title>
+    <div class="toolbar" role="banner">
+      <img
+        width="40"
+        alt="Angular Logo"
+        src="/assets/logo1.png"
+      />
+
+      <span class="mind1">BATANGAS STATE UNIVERSITY<br>MENTAL HEALTH ASSESSMENT APPLICATION</span>
+        <div class="spacer"></div>
+        
+        <span class="mind1"></span>
+        <img
+        width="80"
+        alt="Angular Logo"
+        src="/assets/logo2.png"
+      />
+      
+    </div>
+    
+  </ion-title>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<div class="spacer"></div>
+<div class="content"></div><br>
+  <ion-grid>
+
+    <ion-row>
+      <ion-col>
+        <ion-text color="dark">
+          <h1 text-center>REGISTER</h1>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="10" >
+        <ion-item>
+          <ion-label position="relative" required>Name:</ion-label>
+          <ion-input type="text" [(ngModel)]="name"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="10">
+        <ion-item>
+          <ion-label position="relative" required>Sr-code:</ion-label>
+          <ion-input type="text" [(ngModel)]="srCode"></ion-input> 
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="10">
+        <ion-item>
+          <ion-label position="relative" required>Password:</ion-label>
+          <ion-input type="password" [(ngModel)]="password"></ion-input> 
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="10">
+        <ion-item>
+          <ion-label position="relative" required>Confirm Password:</ion-label>
+          <ion-input type="password" [(ngModel)]="confirmPassword"></ion-input> 
+        </ion-item> 
+      </ion-col>
+    </ion-row>
+    <br>
+    <br>
+    <ion-row >
+      <ion-col size="10" >
+        <ion-button color="primary" expand="round" (click)="register()">Register</ion-button>
+      
+        <ion-button color="Danger" expand="round" routerLink="/login">Cancel</ion-button>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+</ion-content>
+
+
+
+
+
+
