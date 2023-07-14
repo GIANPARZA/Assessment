@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
-const routes: Routes = [
-  {
-    path: '',
-    component: HomePage,
-  }
-];
+import { HomePageRoutingModule } from './home-routing.module';
+
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule,
+    HomePageRoutingModule
+  ],
+  declarations: [HomePage]
 })
-export class HomePageRoutingModule {}
+export class HomePageModule {}
