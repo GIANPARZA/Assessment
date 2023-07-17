@@ -67,7 +67,7 @@ For any questions or inquiries about the Mental Health Assessment Application, p
 <img src="project/gian.png.png" alt="logo" title="marc" width="100" height="75">
 
 ### BatStateU OGC 
-<img src="logo.png" alt="logo" title="marc" width="100" height="75">
+<img src="project/logo.png" alt="logo" title="marc" width="100" height="75">
 
 
 
