@@ -52,17 +52,18 @@ Submit feature requests or suggestions by opening a new issue on the GitHub repo
 Fork the repository, make your changes, and submit a pull request for review.
 Please ensure that your contributions align with the project's coding conventions and follow best practices.
 ## License
+#### To be followed.
 ## Contact
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
 ### **Project Lead:**
 
-#### Klaier Anthonette Aranas
+#### Klaier Anthonette Aranas : 0946-050-8140
 <img src="proj_lead/klaier.png.png" alt="logo" title="klaier" width="100" height="75">
 
-#### Marc Aaron Manansala
+#### Marc Aaron Manansala : 0956-135-9742
 <img src="proj_lead/marc.png.png" alt="logo" title="marc" width="100" height="75">
 
-#### Gian Carlo Parza 
+#### Gian Carlo Parza : 0906-235-7105
 <img src="proj_lead/gian.png.png" alt="logo" title="marc" width="100" height="75">
 
 ### BatStateU OGC 
