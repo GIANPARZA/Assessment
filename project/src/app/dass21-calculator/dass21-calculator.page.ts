@@ -33,7 +33,7 @@ export class Dass21CalculatorPage {
   questionTexts = [
     'I found myself getting upset by quite trivial things',
     'I was aware of dryness of my mouth',
-    'I was aware of dryness of my mouth',
+    'I could not seem to experience any positive feeling at all',
     'I experienced breathing difficulty (eg, excessively rapid breathing breathlessness in the absence of physical exertion)',
     'I just could not seem to get going',
     'I tended to over-react to situations',
