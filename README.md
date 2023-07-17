@@ -52,6 +52,7 @@ Submit feature requests or suggestions by opening a new issue on the GitHub repo
 Fork the repository, make your changes, and submit a pull request for review.
 Please ensure that your contributions align with the project's coding conventions and follow best practices.
 ## License
+#### To be followed.
 ## Contact
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
 ### **Project Lead:**
