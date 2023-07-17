@@ -45,7 +45,10 @@ To get started with the Mental Health Assessment Application, follow these steps
 ## Usage
 &nbsp;After launching the application, users can establish an account or log into an existing account. They can then conclude the DASS-42 examination by responding to the questions provided. Users can view their assessment results on the result page, which provides an overview of their mental health status, after completing the assessment.
 ## Contributing
-&nbsp; 
+&nbsp;The Mental Health Assessment Application welcomes contributions. Please follow the below guidelines if you encounter any issues, have suggestions for enhancements, or would like to contribute new features.
+Create a new issue within the GitHub repository to report any problems or issues.
+Submit suggestions or proposals for new features by creating a new issue in the repository on GitHub.
+Fork the repository, make your modifications, and then submit a pull request for evaluation.
 Please ensure that your contributions align with the project's coding conventions and follow best practices.
 ## License
 #### To be followed.
