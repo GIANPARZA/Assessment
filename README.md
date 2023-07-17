@@ -1,5 +1,5 @@
 # Mental Health Assessment Application
-A mobile application for assessing and monitoring the mental health of Batangas State University (BatStateU) students.
+A mobile application for assessing and monitoring Batangas State University (BatStateU) students' mental health.
 ## Table of Contents
 * About
 * Features
