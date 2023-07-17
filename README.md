@@ -58,13 +58,13 @@ For any questions or inquiries about the Mental Health Assessment Application, p
 ### **Project Lead:**
 
 #### Klaier Anthonette Aranas : 0946-050-8140
-<img src="proj_lead/klaier.png.png" alt="logo" title="klaier" width="100" height="75">
+<img src="klaier.png.png" alt="logo" title="klaier" width="100" height="75">
 
 #### Marc Aaron Manansala : 0956-135-9742
-<img src="proj_lead/marc.png.png" alt="logo" title="marc" width="100" height="75">
+<img src="marc.png.png" alt="logo" title="marc" width="100" height="75">
 
 #### Gian Carlo Parza : 0906-235-7105
-<img src="proj_lead/gian.png.png" alt="logo" title="marc" width="100" height="75">
+<img src="gian.png.png" alt="logo" title="marc" width="100" height="75">
 
 ### BatStateU OGC 
 <img src="logo.png" alt="logo" title="marc" width="100" height="75">
