@@ -15,7 +15,7 @@ A mobile application for assessing and monitoring Batangas State University (Bat
 * Login Page: Provides users with a secure login interface to access their accounts.
 * DASS-21 Assessment: Incorporates the Depression, Anxiety, and Stress Scale (DASS-21) questionnaire to assess the user's
 * mental health status. The assessment consists of a series of questions designed to evaluate levels of depression, anxiety, and stress experienced by the user.
-* Assessment Result Page: Displays the results of the DASS-42 assessment in a clear and user-friendly manner. The result page provides users with an overview of their mental health status based on the assessment, helping them understand their emotional well-being.
+* Assessment Result Page: Displays the results of the DASS-21 assessment in a clear and user-friendly manner. The result page provides users with an overview of their mental health status based on the assessment, helping them understand their emotional well-being.
 
 ## Getting Started
 To get started with the Mental Health Assessment Application, follow these steps:
