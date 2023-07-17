@@ -43,7 +43,7 @@ To get started with the Mental Health Assessment Application, follow these steps
   - Access the application through your preferred web browser using the specified URL or run it on a mobile device using the Ionic DevApp.
 
 ## Usage
-&nbsp;
+&nbsp;After launching the application, users can establish an account or log into an existing account. They can then conclude the DASS-42 examination by responding to the questions provided. Users can view their assessment results on the result page, which provides an overview of their mental health status, after completing the assessment.
 ## Contributing
 &nbsp; Contributions to the Mental Health Assessment Application are welcome. If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please follow the guidelines below:
 Report any bugs or issues by opening a new issue on the GitHub repository.
