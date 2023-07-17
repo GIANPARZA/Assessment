@@ -49,7 +49,6 @@ To get started with the Mental Health Assessment Application, follow these steps
 Create a new issue within the GitHub repository to report any problems or issues.
 Submit suggestions or proposals for new features by creating a new issue in the repository on GitHub.
 Fork the repository, make your modifications, and then submit a pull request for evaluation.
-Please ensure that your contributions align with the project's coding conventions and follow best practices.
 ## License
 #### To be followed.
 ## Contact
