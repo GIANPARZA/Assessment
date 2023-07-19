@@ -150,7 +150,7 @@
     }
   
     ion-content {
-      --background:url('/assets/home.png') no-repeat;
+      --background:url('/assets/home_1.png') no-repeat;
       --background-size: cover;
       --background-position: center;
       background-size: cover;
@@ -184,6 +184,8 @@
       margin: 10px;
       background-color:transparent;
       color: #fafafa;
+      border-radius: 0px;
+   
 
     }
     ion-input {
@@ -191,6 +193,9 @@
       background-color:transparent;
       width: 400px;
       color: #fafafa;
+      font-family: inherit;
+      border-radius: 40px;
+     
     }
     ion-item {
       --border-radius: 40px;
@@ -198,12 +203,14 @@
       --background:transparent;
       --border-color: #fafafa;
       --border-width: 3px;
+     
       color: #fafafa;
      
     }
     ion-grid {
       margin-left: 40px;
       margin-top: 40px;
+      margin-right: 40px;
     }
     ion-col {
       display: flex;
@@ -211,4 +218,12 @@
     }
     ion-text {
       color: #fafafa;
+    }
+    ion-item ion-icon {
+      cursor: pointer;
+      color: #acacac;
+    }
+    ion-button {
+    display: flex;
+    justify-content: center;
     }

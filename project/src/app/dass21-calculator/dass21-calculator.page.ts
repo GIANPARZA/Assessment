@@ -122,7 +122,7 @@ export class Dass21CalculatorPage {
 
 } 
 
-    
+  
 const alert = await this.alertController.create({
   header: 'Here is your Mental Health Status:',
   message:`${this.Result}`,
@@ -131,22 +131,21 @@ const alert = await this.alertController.create({
     Anxiety :          ${this.Anxiety},\n\n\n
     Stress :           ${this.Stress},
   `,*/
-  buttons: ['DONE']
+  buttons: ['DONE'],
+  cssClass: 'custom-alert-background'
 });
-
 await alert.present();
-  }
-  constructor(private router: Router,private alertController: AlertController,private toastController: ToastController) {}
+}
+  
+constructor(private router: Router,private alertController: AlertController,private toastController: ToastController) {}
 
 navigateToIndexPage() {
   this.router.navigate(['/i']); 
 }
-
 ngOnInit(){
   this.setHeader()
   console.log(this.header)
 }
-
 async showActivitiesToast() {
   const toast = await this.toastController.create({
     message: 'Go to activities',
@@ -168,8 +167,6 @@ async showActivitiesToast() {
     }
   }
 }
-
-
 }
 
 
