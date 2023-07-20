@@ -54,7 +54,7 @@ Please ensure that your contributions adhere to the coding standards and best pr
 #### To be followed.
 ## Contact
 For any questions or inquiries about the Mental Health Assessment Application, please contact:
-### **Project Lead:**
+### **Developers:**
 
 #### Klaier Anthonette Aranas : 0946-050-8140
 <img src="project/klaier.png.png" alt="logo" title="klaier" width="100" height="75">
