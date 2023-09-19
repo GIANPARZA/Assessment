@@ -103,7 +103,7 @@ h1 {
 					<div class="card-body">
 						<h1> A <span>MIND</span>ful day, Red Spartan! Welcome</h1>
 
-						<form id="loginForm">
+						<form id="loginForm" action="assessment.php">
 							<div class="mb-3">
 								<input type="text" class="form-control" id="username" name="username" placeholder="SR-CODE" required>
 							</div>

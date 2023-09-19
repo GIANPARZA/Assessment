@@ -193,7 +193,7 @@
 
 
         <h2>MENTAL HEALTH ASSESSMENT</h2>
-        <form class="dass21form">
+        <form class="dass21form" method="POST" action="activities.php">
     <div class="mb-1">
         <label for="name" class="form-label">Name:</label>
         <input type="text" id="name" name="name" class="form-control" required>
@@ -431,16 +431,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $depressionScore = $_POST["depression_score"];
     $anxietyScore = $_POST["anxiety_score"];
     $stressScore = $_POST["stress_score"];
-    $referrals = $_POST["referrals"];
+  
 
     // Update these variables with your MySQL database credentials
     $servername = "localhost"; // Your database server (usually localhost)
-    $username = "your_mysql_username"; // Your MySQL username
-    $password = "your_mysql_password"; // Your MySQL password
+    $username = ""; // Your MySQL username
+    $password = ""; // Your MySQL password
     $dbname = "assessment"; // Your database name
 
     // Create a connection to the MySQL database
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    $conn = new mysqli('$localhost', 'root', '', 'assessment');
 
     // Check the connection
     if ($conn->connect_error) {
@@ -448,8 +448,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Insert data into the table
-    $sql = "INSERT INTO assessment_results (name, gsuite, depression_score, anxiety_score, stress_score, referrals)
-            VALUES ('$name', '$gsuite', $depressionScore, $anxietyScore, $stressScore, '$referrals')";
+    $sql = "INSERT INTO assessment (name, gsuite, depression_score, anxiety_score, stress_score)
+            VALUES ('$name', '$gsuite', $depressionScore, $anxietyScore, $stressScore)";
 
     if ($conn->query($sql) === TRUE) {
         echo "Assessment results saved successfully!";
