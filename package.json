@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
-    "@angular/cli": "16.1.1"
+  "dependencies": {
+    "jquery": "^3.7.1"
   }
 }
