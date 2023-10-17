@@ -357,7 +357,13 @@ include('submit_assessment.php');?>
     document.getElementById("stress_interpretation").value = stressInterpretation;
     document.querySelector('.dass21form').submit();
 }
-
+    document.addEventListener("DOMContentLoaded", function () {
+    var submitBtn = document.getElementById("submitBtn");
+    submitBtn.addEventListener("click", function (event) {
+        event.preventDefault(); 
+        calculateAndSubmit();
+    });
+});
 
 
 

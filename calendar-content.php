@@ -8,9 +8,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $depressionInterpretation = isset($_POST['depression_interpretation']) ? $_POST['depression_interpretation'] : '';
     $anxietyInterpretation = isset($_POST['anxiety_interpretation']) ? $_POST['anxiety_interpretation'] : '';
     $stressInterpretation = isset($_POST['stress_interpretation']) ? $_POST['stress_interpretation'] : '';
-     $resultMessage = isset($_POST['result_message']) ? $_POST['result_message'] : ''; // Retrieve result_message
     $submissionDate = date('Y-m-d H:i:s');
-    
+    echo "Name: $name<br>";
+    echo "SR Code: $sr_code<br>";
+    echo "Depression Interpretation: $depressionInterpretation<br>";
+    echo "Anxiety Interpretation: $anxietyInterpretation<br>";
+    echo "Stress Interpretation: $stressInterpretation<br>";
 
 
     $query = "INSERT INTO assessment (name, sr_code, depression_interpretation, anxiety_interpretation, stress_interpretation)

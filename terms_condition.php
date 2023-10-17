@@ -92,14 +92,12 @@ h1 {
 			<img src="assets/logo_bsu.png" alt="logo" width="50" height="50" class="inline-block align-text-top me-2 ">
 			<h6>BATANGAS STATE UNIVERSITY -  	 	TNEU <br>MENTAL HEALTH ASSESSMENT PORTAL</h6>
 		</a>
-		<a class="navbar-brand" hre="#">
-			<img src="assets/logo_mind.png" alt="logo" width="80" height="80" class="inline-block align-text-top me-2 ">
-		</a>
+
 		</div>
 	</nav>
     <br><br><br><br><br><br><br>
     <div class="row justify-content-center mt-3">
-        <div class="col-md-6-mt-10 text-center">
+        <div class="col-md-6-mt-10  text-center">
             <button type="button" id="assessmentButton" class="btn btn-primary">Take Assessment</button><br>
             <button type="button" id="primaryButton"  class="btn btn-default">Guidelines</button>
         </div>
@@ -110,7 +108,7 @@ h1 {
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel"><b>Terms & Condition</b></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -154,8 +152,10 @@ For inquiries or concerns about these terms and conditions, please contact the O
 By accessing and using the Batangas State University Mental Health Assessment Portal, you acknowledge that you have read, understood, and agreed to these terms and conditions.
             </div>
             <div class="modal-footer">
-                Agree<input type="checkbox" name="checkbox_name" value="checkox_value">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" href="login.php">Take Assessment</button>
+                <form action="terms_condition.php" method="post">
+                Agree<input type="radio" name="checkbox_name" value="checkox_value" required!>
+                <button type="button" class="btn btn-success" data-dismiss="modal" href="login.php">Take Assessment</button>
+            </form>
             </div>
         </div>
     </div>

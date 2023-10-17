@@ -115,6 +115,32 @@ h1 {
 .fa-eye, .fa-eye-slash {
     color: white !important;
 }
+.form-select {
+        background-color: transparent;
+        color: #fff;
+        border-radius: 50px;
+        border-width: 3px;
+        border-color: #fff; /* Set border color */
+        padding: 10px;
+    }
+
+    .form-select:focus {
+        background-color: transparent;
+        border-color: #fff; /* Set border color on focus */
+    }
+
+    .form-select option {
+        background-color: #fff; /* Set background color of options */
+        color: #000000;
+    }
+    .dropdown-container {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-container select.form-select {
+    flex: 1;
+}
 </style>
 <body class="bg-body">
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -125,50 +151,64 @@ h1 {
             </a>
         </div>
     </nav>
-    <br><br><br><br>
-    <div class="container mt-5 transparent-container">
+
+
+
+                        <div class="container mt-5 transparent-container">
         <div class="row justify-content-left">
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h1> A <span>MIND</span>ful day, Red Spartan! Welcome</h1>
+                        <h1>Register a New Account</h1>
 
-                        <form id="loginForm" action="login.php" method="post">
+                        <form id="registrationForm" action="register.php" method="post">
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="sr_code" name="sr_code" placeholder="SR-CODE" required autocomplete="off" pattern="^\d{2}-\d{5}$">
                             </div>
 
-                            <div class="mb-3 input-with-icon">
-                                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
-                                <i class="bi bi-eye-slash-fill text-white" id="togglePassword" onclick="togglePasswordField()"></i>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="fullname" required autocomplete="off">
                             </div>
 
-                            <div class="text-center">
-                                <button type="submit" id="assessmentButton" class="btn btn-primary">Login</button>
-                            </div>
-                            <div class="text-center mt-3">
-                                <a href="forgot_password.php">Forgot Password?</a>
-                            </div>
+                            <div class="mb-3">
+    <select class="form-select" id="department" name="department" required>
+        <option value="" disabled selected>Select Department</option>
+        <option value="Department 1">Department 1</option>
+        <option value="Department 2">Department 2</option>
+        <!-- Add more department options as needed -->
+    </select>
+
+
+
+    <select class="form-select" id="program" name="program" required>
+        <option value="" disabled selected>Select Program</option>
+        <option value="Program 1">Program 1</option>
+        <option value="Program 2">Program 2</option>
+        <!-- Add more program options as needed -->
+    </select>
+
+
+
+    <select class="form-select" id="year" name="year" required>
+        <option value="" disabled selected>Select Year</option>
+        <option value="First Year">First Year</option>
+        <option value="Second Year">Second Year</option>
+        <!-- Add more year options as needed -->
+    </select>
+</div>
+
+<div class="mb-3">
+    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+</div>
+
+<div class="mb-3">
+    <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+</div>
+
+<div class="text-center">
+    <button type="submit" id="registrationButton" class="btn btn-primary">Register</button>
+</div>
                         </form>
-
-                        
-                        <?php if (!empty($errorMessage)) : ?>
-                            <div class="modal" id="errorModal" style="display: block;">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Login Error</h5>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p id="errorMessage"><?php echo $errorMessage; ?></p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endif; ?>
                     </div>
                 </div>
             </div>
